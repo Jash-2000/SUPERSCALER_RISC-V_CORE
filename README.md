@@ -1,0 +1,2 @@
+# SUPERSCALER_RISC-V_CORE
+Source code for RISC-V Architecture, ECE 224A - VLSI PROJECT DESIGN - UCSB Fall 2024
