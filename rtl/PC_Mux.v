@@ -4,6 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+// This decides if we need to implement the jump operation or normal +4 in PC counter
 module PC_Mux (
 	       input wire [31:0]  PC_Plus_4,PC_Target,
 	       input wire 	  PCSrc,

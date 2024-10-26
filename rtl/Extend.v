@@ -4,6 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+// Module to add the feature to work with Immediate values. The extender is required to make sure the unsigned immediate values get converted to signed equivalents.
 module Extend(
 	      input wire [31:7]  Instr,
 	      input wire [1:0] 	 ImmSrc, 

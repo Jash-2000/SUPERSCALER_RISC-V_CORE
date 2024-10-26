@@ -8,10 +8,9 @@
 // Main file of the simulation hierarchy. Defines the structure of the project.
 module Single_Cycle_Top(
 			input 	      clk,reset,	// Input signal to the RISC-V Core
-			output [31:0] WriteData,DataAddr, // Output signal to the memory unit
+			output [31:0] WriteData,DataAddr,PC, Instr, ReadData, // Output signal to the memory unit
 			output 	      MemWrite );	  // Output Signal for enaling Memory Write
 
-   wire [31:0] 			      PC, Instr, ReadData;
 
    Single_Cycle_Core core_top (
 			       .clk(clk),
@@ -25,7 +24,7 @@ module Single_Cycle_Top(
 
    //  Unit that stores the instructions of execution 
    Instruction_Memory Instr_Memory ( 
-				     .A(PC),
+				     .PC_input(PC),
 				     .RD(Instr) );
    
    // Definig the block of Data Memory

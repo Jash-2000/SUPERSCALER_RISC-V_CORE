@@ -4,6 +4,10 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+
+// Main architecture for the control unit.
+// Broadly defines how the control signals traverse through the CPU. 
+
 module Control_Unit(
 		    input wire [6:0]  op,
 		    input wire [2:0]  funct3,
@@ -36,10 +40,8 @@ module Control_Unit(
 			   .ALUOp(ALUop),
 			   .ALUControl(ALUControl) );
    
-   //for branches beq, bne, blt, bge, bltu, bgeu
-   //make modifications later - get sign from ALU, make conditions for all branches  
   
-   assign PCSrc = Branch & Zero | Jump;
+   assign PCSrc = Branch & Zero | Jump; // This will move the command pointer in instruction memory to the "jump" value for branch operations.
     
    
 endmodule

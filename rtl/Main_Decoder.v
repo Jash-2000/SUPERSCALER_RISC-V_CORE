@@ -4,6 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+// Control Unit for decoding the instructions and assigning them to ALU/JUMP/Extender modules as required.
 module Main_Decoder(
 		    input wire [6:0]  op,
 		    output wire [1:0] ResultSrc,

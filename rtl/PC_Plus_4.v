@@ -4,7 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
+// Adding +4 values to move to the next instruction.
 module PC_Plus_4(
 		 input wire [31:0]  PC,
 		 output wire [31:0] PCPlus4 );

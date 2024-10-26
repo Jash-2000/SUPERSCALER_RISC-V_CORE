@@ -4,6 +4,8 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+// Register File having 2 registers for operations like store and load. 
+// This is not the main memory registers.	
 module Register_File(
 		     input wire 	clk, WE3,
 		     input wire [4:0] 	RA1,RA2,WA3,

@@ -44,14 +44,6 @@ module ALU_Decoder(
               default: ALUControl = 4'bxxxx;
             endcase
           default: ALUControl = 4'bxxxx;
-          //ALU Control
-          //3'b000 = addition (add, addi)
-          //3'b001 = subtraction (sub)
-          //3'b010 = and (and, andi)
-          //3'b011 = or (or, ori)
-          //3'b100 = xor (xor, xori)
-          //3'b101 = set less than (slt, slti)
-          //3'b110 = set less than unsigned (sltu, sltui)
 	endcase
      end
 

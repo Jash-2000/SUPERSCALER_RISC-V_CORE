@@ -5,7 +5,8 @@
  */
 
 
-// This file contains the main 
+// This file contains the main code logic for how the ALU works. 
+// All the operands have a user-defined code that has been added for ease of coding, which gets assigned from the ALU_decoder
 module ALU(
 	   input wire signed [31:0]  A,B, // made it signed for sra to work
 	   input wire signed [3:0]   ALUControl,
@@ -50,8 +51,6 @@ module ALU(
        4'b1011: ResultReg <= A >>> B; // sra
        4'b1100: ResultReg <= A >> B; // srl
        
-       //to add sll, slli,
-       //to add sra
        default:  ResultReg <= 'bx;
 
      endcase

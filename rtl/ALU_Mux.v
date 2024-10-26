@@ -4,7 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
+// ALU Mux is the select unit for using Immediate values.
 module ALU_Mux (
 		input wire [31:0]  WD, ImmExt,
 		input wire	   ALUSrc,

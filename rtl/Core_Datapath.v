@@ -4,7 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
+// The main architecture for how the data moves through the CPU. Broadly defines the main modules being used.
 module Core_Datapath(
 		     input	   clk,reset,
 		     input [1:0]   ResultSrc,
@@ -79,6 +79,7 @@ module Core_Datapath(
 		.Zero(Zero),
 		.Result(ALUResult)
 		);
+
    Result_Mux Result_Mux_inst(
 			      .ALUResult(ALUResult),
 			      .ReadData (ReadData),

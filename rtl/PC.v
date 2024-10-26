@@ -4,6 +4,8 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
+
+// Simple Program Counter.
 module PC (	
 		input wire 	   clk,reset,
 		input wire [31:0]  PCNext,
