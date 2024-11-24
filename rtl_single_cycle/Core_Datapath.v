@@ -4,7 +4,6 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
 module Core_Datapath(
 		     input	   clk,reset,
 		     input [1:0]   ResultSrc,

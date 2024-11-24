@@ -4,7 +4,6 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
 module PC_Mux (
 	       input wire [31:0]  PC_Plus_4,PC_Target,
 	       input wire 	  PCSrc,

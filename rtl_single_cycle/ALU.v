@@ -3,27 +3,28 @@
  * Source code for RISC-V Architecture, ECE 224A - VLSI PROJECT DESIGN - UCSB Fall 2024
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
-
  
 module ALU(
-	   input wire signed [31:0]  A,B, // made it signed for sra to work
-	   input wire signed [3:0]   ALUControl,
-	   output wire signed	      Zero,
-	   output wire signed [31:0] Result );
+	   input wire signed [31:0]  A,B, 	  // Inputs for the ALUs
+	   input wire signed [3:0]   ALUControl,  // Used to define the target operation
+	   output wire signed	      Zero,	  // Simply denotes if the output is 0. Used for Jump/Branch Operations
+	   output wire signed [31:0] Result );	  // Holds the Results
 
    reg [31:0]		      ResultReg;
    wire [31:0]		      temp,Sum;
-   wire			      V,slt, sltu; //overflow
+   wire			      V,slt, sltu; 	//overflow
 
    //~B if ALUControl[0] is set 1 for subtraction (R Type]
    assign temp = ALUControl[0] ? ~B:B;
    //Sum is addition of A + B + 0 or
    //Sum is subtraction of A + ~B + 1 <2's complement>
    assign Sum = A + temp + ALUControl[0]; 
+   
    //checks for overflow if result has different sign than operands
    assign V = (ALUControl[0]) ? 
               (~(A[31] ^ B[31]) & (A[31] ^ Sum[31])) : // to check for addition - (operands same sign)&(result has diff sign than A)
               ((A[31] ^ B[31]) & (~(A[31] ^ Sum[31]))); // to check for subtraction - (operands have diff sign)&(result has same sign as A)  
+   
    assign slt = (A[31] == B[31]) ? (A < B) : A[31]; // because for signed numbers, of both are of same sign, we can compare A and B, but if they are of different sign we can take the MSB of A
    //if A is positive and B is negative => A is not less than B, slt = 0 ie. A[31]
    //if A is negative and B is positive -> A is definitely lass than B, so slt = 1 ie. A[31]
@@ -49,8 +50,6 @@ module ALU(
        4'b1011: ResultReg <= A >>> B; // sra
        4'b1100: ResultReg <= A >> B; // srl
        
-       //to add sll, slli,
-       //to add sra
        default:  ResultReg <= 'bx;
 
      endcase

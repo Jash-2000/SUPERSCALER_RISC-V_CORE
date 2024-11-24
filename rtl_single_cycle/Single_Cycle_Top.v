@@ -3,13 +3,12 @@
  * Source code for RISC-V Architecture, ECE 224A - VLSI PROJECT DESIGN - UCSB Fall 2024
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
-
 module Single_Cycle_Top(
 			input 	      clk,reset,
-			output [31:0] WriteData,DataAddr, PC, Instr, ReadData, 
+			output [31:0] WriteData,DataAddr,
 			output 	      MemWrite );
 
-  // wire [31:0] Instr, ReadData;
+   wire [31:0] 			      PC, Instr, ReadData;
 
    Single_Cycle_Core core_top (
 			       .clk(clk),

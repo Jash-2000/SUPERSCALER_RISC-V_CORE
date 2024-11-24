@@ -3,7 +3,6 @@
  * Source code for RISC-V Architecture, ECE 224A - VLSI PROJECT DESIGN - UCSB Fall 2024
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
-
 module Single_Cycle_Core(
 			 input wire 	    clk,reset,
 			 input wire [31:0]  Instr,

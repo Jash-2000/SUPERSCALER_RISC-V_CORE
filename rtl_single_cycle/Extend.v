@@ -4,7 +4,6 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-
 module Extend(
 	      input wire [31:7]  Instr,
 	      input wire [1:0] 	 ImmSrc, 

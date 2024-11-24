@@ -21,7 +21,8 @@ module Instruction_Memory(
 
    initial
      begin
-	$readmemh("./../instructions.txt",I_MEM_BLOCK);
+        $display("Loading the instruction ROM.");
+	$readmemh("/fs/student/jashshah/Desktop/SUPERSCALER_RISC-V_CORE/instructions.txt",I_MEM_BLOCK);
      end
 
    assign RD = I_MEM_BLOCK[A[31:2]]; // word aligned
