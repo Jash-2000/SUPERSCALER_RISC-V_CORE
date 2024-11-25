@@ -4,11 +4,11 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 module Single_Cycle_Top(
-			input 	      clk,reset,
-			output [31:0] WriteData,DataAddr,
-			output 	      MemWrite );
+			input 	      clk,reset
+			 );
 
-   wire [31:0] 			      PC, Instr, ReadData;
+   wire [31:0] 			      PC, Instr, ReadData, WriteData, DataAddr;
+   wire 	                  MemWrite;
 
    Single_Cycle_Core core_top (
 			       .clk(clk),
