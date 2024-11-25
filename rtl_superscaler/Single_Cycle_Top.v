@@ -4,12 +4,10 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-module Single_Cycle_Top(
-			input 	      clk,reset,
-			output [31:0] WriteData,DataAddr, PC, Instr, ReadData, 
-			output 	      MemWrite );
+module Single_Cycle_Top( input clk,reset );
 
-  // wire [31:0] Instr, ReadData;
+  wire [31:0] WriteData, DataAddr, PC, Instr, ReadData;
+  wire MemWrite, SSSrc;
 
    Single_Cycle_Core core_top (
 			       .clk(clk),
@@ -19,11 +17,13 @@ module Single_Cycle_Top(
 			       .PC(PC),
 			       .MemWrite(MemWrite),
 			       .ALUResult(DataAddr),
+			       .SSSrc(SSSrc),
 			       .WriteData(WriteData) );
 
    Instruction_Memory Instr_Memory ( 
 				     .A(PC),
-				     .RD(Instr) );
+				     .RD(Instr),
+				     .SSSrc(SSSrc) );
 
    Data_Memory Data_Memory (
 			    .clk(clk), 

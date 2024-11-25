@@ -7,6 +7,7 @@
 module Single_Cycle_Core(
 			 input wire 	    clk,reset,
 			 input wire [31:0]  Instr,
+			 input wire 	    SSSrc,
 			 input wire [31:0]  ReadData,
 			 output wire [31:0] PC,
 			 output wire 	    MemWrite,
@@ -46,6 +47,7 @@ module Single_Cycle_Core(
 			  .ReadData(ReadData),
 			  .Zero(Zero),
 			  .PC(PC),
+			  .SSSrc(SSSrc),
 			  .ALUResult(ALUResult),
 			  .WriteData(WriteData)
 			  );	
