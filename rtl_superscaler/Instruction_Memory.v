@@ -6,7 +6,8 @@
 
 module Instruction_Memory(
 			  input [31:0] 	A,
-			  output [31:0] RD
+			  output [31:0] RD,
+			  output SSSrc
 			  );
    //hardcoding an instruction memory for the following instructions:
    //Address Instruction Type Fields Machine Language - Sarah Harris TBK Pg.399
@@ -17,7 +18,7 @@ module Instruction_Memory(
    //0x1008 or x4, x5, x6 R 0000000 00110 00101 110 00100 0110011 0062E233
    //funct7 rs2 rs1 f3 rd op
    //0x100C beq x4, x4, L7 B 1111111 00100 00100 000 10101 1100011 FE420AE3
-   reg [31:0] 				I_MEM_BLOCK[63:0];
+   reg [32:0] 				I_MEM_BLOCK[63:0];
 
    initial
      begin
@@ -25,6 +26,6 @@ module Instruction_Memory(
 	$readmemh("/fs/student/jashshah/Desktop/SUPERSCALER_RISC-V_CORE/instructions_ss.txt",I_MEM_BLOCK);
      end
 
-   assign RD = I_MEM_BLOCK[A[31:2]]; // word aligned
+	assign {SSSrc,RD} = I_MEM_BLOCK[A[31:2]]; // word aligned by dividing by 4 (we are reading 32 bit instructions only)
 
 endmodule
