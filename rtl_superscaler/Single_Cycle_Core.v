@@ -21,6 +21,7 @@ module Single_Cycle_Core(
 			.op(Instr[6:0]),
 			.funct3(Instr[14:12]),
 			.funct7b5(Instr[30]),
+			.funct7b0(Instr[25]),
 			.Zero(Zero),
 			.ResultSrc(ResultSrc),
 			.MemWrite(MemWrite),

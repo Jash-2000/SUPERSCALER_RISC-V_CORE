@@ -4,7 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-module Extend_tb;
+module ALU_Array_tb;
 
    reg [31:7] Instr;
    reg [1:0]  ImmSrc;

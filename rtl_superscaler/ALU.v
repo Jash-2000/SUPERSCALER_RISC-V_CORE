@@ -12,7 +12,7 @@ module ALU(
 
    reg [31:0]		      ResultReg;
    wire [31:0]		      temp,Sum;
-   wire			      V,slt, sltu; 	//overflow
+   wire			      slt, sltu; 	//overflow
 
    //~B if ALUControl[0] is set 1 for subtraction (R Type]
    //Sum is addition of A + B + 0 or
@@ -34,6 +34,7 @@ module ALU(
        4'b0010: ResultReg <= A&B; //and
        4'b0011: ResultReg <= A|B; //or
        4'b0100: ResultReg <= A^B; //xor
+       //4'b1111: ResultReg <= <To be added for non-superscaler cases> ; //Mul
        
        4'b0101: ResultReg <= {31'b0,slt}; //slt
        4'b0110: ResultReg <= {31'b0,sltu}; // sltu

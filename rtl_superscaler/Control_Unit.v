@@ -7,7 +7,7 @@
 module Control_Unit(
 		    input wire [6:0]  op,
 		    input wire [2:0]  funct3,
-		    input wire	      funct7b5, Zero, // function 7 is the 5th bit
+		    input wire	      funct7b5, funct7b0, Zero, // function 7's 5th and 0th bit
 
 		    output wire [1:0] ResultSrc,
 		    output wire	      MemWrite, PCSrc, ALUSrc, RegWrite,Jump,
@@ -30,9 +30,11 @@ module Control_Unit(
 			     .ALUop(ALUop) );
    
    ALU_Decoder ALU_Decoder(
-  			   .opb5(op[5]),
+  			   .opb0(op[0]),
+			   .opb5(op[5]),
 			   .funct3(funct3),
 			   .funct7b5(funct7b5),
+			   .funct7b0(funct7b0),
 			   .ALUOp(ALUop),
 			   .ALUControl(ALUControl) );
    

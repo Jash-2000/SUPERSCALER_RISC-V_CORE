@@ -8,7 +8,7 @@
 module Core_Datapath(
 		     input	   clk,reset,
 		     input [1:0]   ResultSrc,
-		     input	   PCSrc,ALUSrc,
+		     input	   PCSrc,ALUSrc, SSSrc,
 		     input	   RegWrite,
 		     input [1:0]   ImmSrc,
 		     input [3:0]   ALUControl,
@@ -24,7 +24,8 @@ module Core_Datapath(
    wire [31:0]			   ImmExt;
    wire [31:0]			   SrcA,SrcB;
    wire [31:0]			   Result;
-
+   wire 			   Zero_ss;	// Not connected anywhere as we dont really require any other operations for superscaler cases.
+   wire [31:0]			   ALUResult_s, ALUResult_ss;
 
    PC PC_inst (
 	       .clk(clk),
@@ -77,8 +78,21 @@ module Core_Datapath(
 		.B(SrcB),
 		.ALUControl(ALUControl),
 		.Zero(Zero),
-		.Result(ALUResult)
+		.Result(ALUResult_s)
 		);
+   ALU_Array ALU_Array_inst(
+		.A(SrcA),
+		.B(SrcB),
+		.ALUControl(ALUControl),
+		.Zero(Zero_ss),
+		.Result(ALUResult_ss)
+		);
+   SS_Mux SS_Mux_inst(
+			.ALUResult_ss(ALUResult_ss), 
+			.ALUResult_s(ALUResult_s), 
+			.SSSrc(SSSrc),
+			.ALUResult(ALUResult)
+   );
    Result_Mux Result_Mux_inst(
 			      .ALUResult(ALUResult),
 			      .ReadData (ReadData),

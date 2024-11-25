@@ -6,14 +6,17 @@
 
 module ALU_Decoder(
 		   input wire	    opb5, //bit 5 of the opcode
+		   input wire	    opb0, //bit 0 of the opcode
 		   input wire [2:0] funct3, // instr[14:12]
 		   input wire	    funct7b5, // bit 30 of instruction
+		   input wire	    funct7b0, // bit 25 of instruction
 		   input wire [1:0] ALUOp,
 		   output reg [3:0] ALUControl
 		   );
 
-   wire				    RtypeSub;
+   wire				    RtypeSub, RtypeMul;
    assign RtypeSub = funct7b5 & opb5; //TRUE for R-type substract
+   assign RtypeMul = funct7b1 & opb1; //TRUE for R-type substract
 
    always@(*)
      begin
@@ -24,8 +27,9 @@ module ALU_Decoder(
             case(funct3)//R-type or I-type ALU
               3'b000:    
                 if (RtypeSub) ALUControl = 4'b0001; //sub
+		else if(RtypeMul) ALUControl = 4'b1111; //mul
                 else ALUControl = 4'b0000; //add,addi
-                3'b001: ALUControl = 4'b1010; // sll, slli;
+              3'b001: ALUControl = 4'b1010; // sll, slli;
               3'b010: ALUControl = 4'b0101; //slt,slti
               3'b011: ALUControl = 4'b0110; //sltu, sltui
               3'b100: ALUControl = 4'b0100; //xor
@@ -39,8 +43,8 @@ module ALU_Decoder(
             endcase
           2'b11: //ALUOp = 2'b11 and beyond
             case(funct3)
-              3'b000: ALUControl = 4'b01000; // AUIPC
-              3'b001: ALUControl = 4'b01001; // LUI
+              3'b000: ALUControl = 4'b1000; // AUIPC
+              3'b001: ALUControl = 4'b1001; // LUI
               default: ALUControl = 4'bxxxx;
             endcase
           default: ALUControl = 4'bxxxx;
