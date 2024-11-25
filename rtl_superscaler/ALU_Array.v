@@ -6,9 +6,8 @@
  
 module ALU_Array(	   input wire signed [31:0]  A,B, 	  // Inputs for the ALUs
 	   input wire signed [3:0]   ALUControl,  // Used to define the target operation
-	   output wire signed	      Zero,	  // Simply denotes if the output is 0. Used for Jump/Branch Operations
 	   output wire signed [31:0] Result );	  // Holds the Results
-
+   
 // Defining 8 parallel sets of ALUs to work in parallel.
    ALU_reduced ALU_reduced_inst1(
 		.A(A[3:0]),
@@ -58,10 +57,5 @@ module ALU_Array(	   input wire signed [31:0]  A,B, 	  // Inputs for the ALUs
 		.ALUControl(ALUControl),
 		.Result(Result[31:28])
 		);
-
-    always@(*)
-	begin
-    	  assign Zero = (Result == 32'b0);
-	end
 
 endmodule

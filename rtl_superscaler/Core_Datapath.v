@@ -24,7 +24,6 @@ module Core_Datapath(
    wire [31:0]			   ImmExt;
    wire [31:0]			   SrcA,SrcB;
    wire [31:0]			   Result;
-   wire 			   Zero_ss;	// Not connected anywhere as we dont really require any other operations for superscaler cases.
    wire [31:0]			   ALUResult_s, ALUResult_ss;
 
    PC PC_inst (
@@ -84,7 +83,6 @@ module Core_Datapath(
 		.A(SrcA),
 		.B(SrcB),
 		.ALUControl(ALUControl),
-		.Zero(Zero_ss),
 		.Result(ALUResult_ss)
 		);
    SS_Mux SS_Mux_inst(

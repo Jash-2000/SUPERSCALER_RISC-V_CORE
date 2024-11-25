@@ -4,7 +4,7 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-module four_bit_multiplier (
+module FOUR_bit_multiplier (
     input [3:0] A,        	// 4-bit input A
     input [3:0] B,        	// 4-bit input B
     output reg [3:0] P     // 4-bit product output (assuming the output is no greater than 15)

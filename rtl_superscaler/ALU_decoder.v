@@ -16,7 +16,7 @@ module ALU_Decoder(
 
    wire				    RtypeSub, RtypeMul;
    assign RtypeSub = funct7b5 & opb5; //TRUE for R-type substract
-   assign RtypeMul = funct7b1 & opb1; //TRUE for R-type substract
+   assign RtypeMul = funct7b0 & opb0; //TRUE for R-type substract
 
    always@(*)
      begin

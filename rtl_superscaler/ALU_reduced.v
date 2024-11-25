@@ -13,7 +13,7 @@ module ALU_reduced(
    wire [3:0]		      temp,Sum;
   
    assign Sum = A + B; 
-   four_bit_multiplier 4_bit_mul_inst(.A(A), .B(B), .P(temp));
+   FOUR_bit_multiplier four_bit_mul_inst(.A(A), .B(B), .P(temp));
 
    always@(*)
      case(ALUControl)
