@@ -4,26 +4,23 @@
  * Developed by Team 10 - Parth Kulkarni, Jash Shah, Oindrila Chatterjee
  */
 
-module Single_Cycle_TB();
+module CPU_TB();
 
-reg clk = 0, reset;
+reg clk = 0, reset;     // Inputs to the system
+integer clk_cnt=0, stop_flag=0;        // Process Variable to count the number of clock pulses. 
+
+// Wires decalred for simulation purpose.
 wire [31:0] WriteData, DataAddr;
 wire MemWrite;
 wire [31:0] PC, Instr;
-integer clk_cnt, stop_flag = 0;
 wire [31:0] RAM_0, reg_0;
 
 always #10 clk = ~clk;
 
-assign PC = DUT.PC;
-assign Instr = DUT.Instr;
-assign RAM_0 = DUT.Data_Memory.RAM[0];
-assign reg_0 = DUT.core_top.Datapath.Register_inst.REG_MEM_BLOCK[0];
-assign WriteData = DUT.WriteData;
-assign DataAddr = DUT.DataAddr;
-assign MemWrite = DUT.MemWrite;
+// Assigning the wires in TB to their RTL equivalents.
+assign PC = DUT.cpu_single_cycle_top.Datapath.PC;
 
-Single_Cycle_Top DUT(
+CPU_Top DUT(
 	.clk(clk),
 	.reset(reset)
 );

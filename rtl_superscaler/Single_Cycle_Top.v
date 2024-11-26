@@ -6,19 +6,10 @@
 
 module Single_Cycle_Top( input clk,reset );
 
-  wire [31:0] WriteData, DataAddr, PC, Instr, ReadData;
-  wire MemWrite, SSSrc;
-
-   Single_Cycle_Core core_top (
-			       .clk(clk),
-			       .reset(reset),
-			       .Instr(Instr),
-			       .ReadData(ReadData),
-			       .PC(PC),
-			       .MemWrite(MemWrite),
-			       .ALUResult(DataAddr),
-			       .SSSrc(SSSrc),
-			       .WriteData(WriteData) );
+  wire [31:0] WriteData, DataAddr, PC, Instr, ReadData, SrcA, SrcB, Result;
+  wire MemWrite, SSSrc, ALUSrc, RegWrite, Jump, Zero, PCSrc;
+  wire [1:0] ResultSrc,ImmSrc;
+  wire [3:0] ALUControl;
 
    Instruction_Memory Instr_Memory ( 
 				     .A(PC),
@@ -31,5 +22,53 @@ module Single_Cycle_Top( input clk,reset );
 			    .A(DataAddr), 
 			    .WD(WriteData),
 			    .RD(ReadData) );
+
+   Register_File Register_inst(
+			       .clk(clk),
+			       .WE3(RegWrite),
+			       .RA1(Instr[19:15]),
+			       .RA2(Instr[24:20]),
+			       .WA3((Instr[11:7])),
+			       .WD3(Result),
+			       .RD1(SrcA),
+			       .RD2(WriteData)
+			       );
+
+   Control_Unit Control(
+			.op(Instr[6:0]),
+			.funct3(Instr[14:12]),
+			.funct7b5(Instr[30]),
+			.funct7b0(Instr[25]),
+			.Zero(Zero),
+			.ResultSrc(ResultSrc),
+			.MemWrite(MemWrite),
+			.PCSrc(PCSrc),
+			.ALUSrc(ALUSrc),
+			.RegWrite(RegWrite),
+			.Jump(Jump),
+			.ImmSrc(ImmSrc),
+			.ALUControl(ALUControl)
+			);
+
+   Core_Datapath Datapath(
+			  .clk(clk),
+			  .reset(reset),
+			  .ResultSrc(ResultSrc),
+			  .PCSrc(PCSrc),
+			  .ALUSrc(ALUSrc),
+			  .ImmSrc(ImmSrc),
+			  .ALUControl(ALUControl),
+			  .Instr(Instr),
+			  .ReadData(ReadData),
+			  .Zero(Zero),
+			  .PC(PC),
+			  .SSSrc(SSSrc),
+			  .ALUResult(ALUResult),
+			  .WriteData(WriteData),
+			  .Result(Result),
+			  .SrcA(SrcA),
+			  .SrcB(SrcB)
+			  );	
+
 
 endmodule
