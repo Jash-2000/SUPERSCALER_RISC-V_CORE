@@ -24,17 +24,19 @@ The superscaler instructions are as follows
 
 
 ## Design Architecture
--1.SimTop - Contains the complete CPU unit with Clock and Reset signals being the inputs.
--1.1. Instr_Memory - ROM for reading the program instructions
--1.2. Reg_Memory -   On-Chip Register unit(DRAM) for directly handling volatile data
--1.3. Data_Memory -  Main Memory on System(SRAM)
--1.4. Control_Path - Architecture for how the Control signals flow through various components
--1.4.1 ALU_Decoder -  Decodes which operation needs to be performed through the ALU
--1.4.1 Main_Decoder - Decodes which type of operation/load/read/write operation needs to be performed through the system
--1.5. Data_Path -    Architecture for how the data flows through various components
--1.5.1 PC_Unit -      Determines the next Program Pointer Value to run the next set of instructions.
--1.5.2 ALU_Unit -     Contains both the ALUs, their supplimentry units and the logic used to activate the required ALU unit.
--1.5.3 Write_Back -   MUX logic to determin the data to be written back to register
--1.5.4 Ext_Unit -     Extend and/or Immediate Units for the CPU.
+SimTop - Contains the complete CPU unit with Clock and Reset signals being the inputs.
+- 1. Instr_Memory - ROM for reading the program instructions
+- 2. Reg_Memory -   On-Chip Register unit(DRAM) for directly handling volatile data
+- 3. Data_Memory -  Main Memory on System(SRAM)
+- 4. Control_Path - Architecture for how the Control signals flow through various components
+  - 1. ALU_Decoder -  Decodes which operation needs to be performed through the ALU
+  - 2. Main_Decoder - Decodes which type of operation/load/read/write operation needs to be performed through the system
+- 5. Data_Path -    Architecture for how the data flows through various components
+  - 1 PC_Unit -      Determines the next Program Pointer Value to run the next set of instructions.
+  - 2 ALU_Unit -     Contains both the ALUs, their supplimentry units and the logic used to activate the required ALU unit.
+  - 3 Write_Back -   MUX logic to determin the data to be written back to register
+  - 4 Ext_Unit -     Extend and/or Immediate Units for the CPU. 
+
+--
 
 Current implementation is single-cycle. WIP for pipelined architecture...
