@@ -6,30 +6,30 @@
 
 module ALU_Array_tb;
 
-   reg [31:7] Instr;
-   reg [1:0]  ImmSrc;
-   wire [31:0] ImmExt;
+   reg [31:0] A, B;
+   wire [31:0] Result;
+   reg [3:0]  ALUControl;
 
-   Extend Extend_tb_inst (.Instr(Instr), .ImmSrc(ImmSrc), .ImmExt(ImmExt));
+   ALU_Array ALU_Array_inst (.A(A), .B(B), .Result(Result), .ALUControl(ALUControl));
 
    initial begin
-      Instr = 32'h010080000;
-      ImmSrc = 2'b00;
+      A = 32'h02345432;		// Key 1 - [0 2 3 4 5 4 3 2]
+      B = 32'hF7521035;		// Key 2 - [15 7 5 2 1 0 3 5]
+      ALUControl = 4'b0000;	// Parallel Add operation
       #10;
-      Instr = 32'h010080000;
-      ImmSrc = 2'b01;
+      A = 32'h02345432;		// Key 1 - [0 2 3 4 5 4 3 2]
+      B = 32'hF7521035;		// Key 2 - [15 7 5 2 1 0 3 5]
+      ALUControl = 4'b1111;	// Parallel MUL operation
       #10;
-      Instr = 32'h010080000;
-      ImmSrc = 2'b10;
-      #10;
-      Instr = 32'h010080000;
-      ImmSrc = 2'b11;
+      A = 32'h02345432;		// Key 1 - [0 2 3 4 5 4 3 2]
+      B = 32'hF7521035;		// Key 2 - [15 7 5 2 1 0 3 5]
+      ALUControl = 4'b0001;	// Parallel Sub operation
       #10;
       $finish;
    end 
 
    initial begin
-      $monitor("At time %d, ImmExt = %h", $time, ImmExt);
+      $monitor("At time %d, Result = %h", $time, Result);
    end
 
 endmodule
