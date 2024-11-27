@@ -63,7 +63,7 @@ module Single_Cycle_Top( input clk,reset );
 			  .Zero(Zero),
 			  .PC(PC),
 			  .SSSrc(SSSrc),
-			  .ALUResult(ALUResult),
+			  .ALUResult(DataAddr),
 			  .WriteData(WriteData),
 			  .Result(Result),
 			  .SrcA(SrcA),

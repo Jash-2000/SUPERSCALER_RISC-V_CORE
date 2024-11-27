@@ -14,16 +14,20 @@ module Register_File(
    reg [31:0] 				REG_MEM_BLOCK[31:0];
 
    initial begin
-   	REG_MEM_BLOCK[32'h00_00_00_00]  = 32'h00000000;	// Value 0 stored in the 1st register block, useful for system operations
+    REG_MEM_BLOCK[5'b00000]  = 32'h00000000;	// Value 0 stored in the 1st register block, useful for system operations
+    REG_MEM_BLOCK[5'b00001]  = 32'h1FD961AB;
+    REG_MEM_BLOCK[5'b00010]  = 32'h00000000;
+    REG_MEM_BLOCK[5'b00011]  = 32'h02345432;
+    REG_MEM_BLOCK[5'b00100]  = 32'hF7421035;
    end
 
    always@(posedge clk)
      begin
-	if(WE3)
-	  REG_MEM_BLOCK[WA3] <= WD3;
+	   if(WE3)
+	       REG_MEM_BLOCK[WA3] <= WD3;
      end
 
-   assign RD1 = (RA1 != 0) ? REG_MEM_BLOCK[RA1] : 0;
-   assign RD2 = (RA2 != 0) ? REG_MEM_BLOCK[RA2] : 0;
+   assign RD1 = REG_MEM_BLOCK[RA1];
+   assign RD2 = REG_MEM_BLOCK[RA2];
 
 endmodule

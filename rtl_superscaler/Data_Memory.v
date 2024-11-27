@@ -16,6 +16,7 @@ module Data_Memory(
 
 initial begin
    RAM[32'h00_00_00_00]  = 32'h11111111;	// Admin Key Stored the system's 1st memory block
+   RAM[32'h00_00_00_01]  = 32'h1FD961AB;	// Passkey Stored the system's 4th memory block
 end
 
 

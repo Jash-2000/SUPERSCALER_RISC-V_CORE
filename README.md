@@ -23,6 +23,13 @@ SimTop - Contains the complete CPU unit with Clock and Reset signals being the i
   - 3 Write_Back -   MUX logic to determin the data to be written back to register
   - 4 Ext_Unit -     Extend and/or Immediate Units for the CPU. 
 
+## Implemented Instructions
+- R-Type - ADD, ADDI, SUB, SLT, SLTU, XOR, SRL, SRA, OR, AND
+- I-Type - LB, LH, LW, LBU, LHU, ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI
+- S-Type - SB, SH, SW
+- B-Type - BEQ, BNE
+- U-Type - LUI, AUIPC
+
 ## Program Architecture
 All keys being used in the program are 8 hex-digit long. 
 Admin Key -- Key used once the user enters Username and Password -- [ 1 1 1 1 1 1 1 1 ]
