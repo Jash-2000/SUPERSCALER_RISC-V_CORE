@@ -6,7 +6,7 @@
 
 module Single_Cycle_Top( input clk,reset );
 
-  wire [31:0] WriteData, DataAddr, PC, Instr, ReadData, SrcA, SrcB, Result;
+  wire [31:0] WriteData, DataAddr, PC, Instr, ReadData, SrcA, Result;
   wire MemWrite, SSSrc, ALUSrc, RegWrite, Jump, Zero, PCSrc;
   wire [1:0] ResultSrc,ImmSrc;
   wire [3:0] ALUControl;
@@ -66,8 +66,7 @@ module Single_Cycle_Top( input clk,reset );
 			  .ALUResult(DataAddr),
 			  .WriteData(WriteData),
 			  .Result(Result),
-			  .SrcA(SrcA),
-			  .SrcB(SrcB)
+			  .SrcA(SrcA)
 			  );	
 
 

@@ -8,13 +8,13 @@
 module ALU_Unit(
 		     input	   ALUSrc, SSSrc,
 		     input [3:0]   ALUControl,
-		     input [31:0]  SrcA,SrcB,ImmExt,
+		     input [31:0]  SrcA,ImmExt,
 
 		     output	   Zero,
 		     output [31:0] ALUResult,WriteData
 		     );
 
-   wire [31:0]			   ALUResult_s, ALUResult_ss;
+   wire [31:0]			   ALUResult_s, ALUResult_ss, SrcB;
 
    Mux ALU_Mux_inst(
 			.Input_A(WriteData), 

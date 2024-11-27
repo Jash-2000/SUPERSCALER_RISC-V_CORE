@@ -12,7 +12,7 @@ module Core_Datapath(
 		     input [1:0]   ImmSrc,
 		     input [3:0]   ALUControl,
 		     input [31:0]  Instr,
-		     input [31:0]  ReadData, SrcA,SrcB, Result,
+		     input [31:0]  ReadData, SrcA, Result,
 
 		     output	   Zero,
 		     output [31:0] PC,
@@ -47,7 +47,6 @@ module Core_Datapath(
 			.SSSrc(SSSrc),
 			.ALUControl(ALUControl),
 			.SrcA(SrcA),
-			.SrcB(SrcB),
 			.ImmExt(ImmExt),
 			.Zero(Zero),
 			.ALUResult(ALUResult),

@@ -16,7 +16,7 @@ module ALU_Decoder(
 
    wire				    RtypeSub, RtypeMul;
    assign RtypeSub = funct7b5 & opb5; //TRUE for R-type substract
-   assign RtypeMul = funct7b0 & opb0; //TRUE for R-type substract
+   assign RtypeMul = funct7b0 & opb5; //TRUE for R-type multiplication
 
    always@(*)
      begin
@@ -27,7 +27,7 @@ module ALU_Decoder(
             case(funct3)//R-type or I-type ALU
               3'b000:    
                 if (RtypeSub) ALUControl = 4'b0001; //sub
-		else if(RtypeMul) ALUControl = 4'b1111; //mul
+		        else if(RtypeMul) ALUControl = 4'b1111; //mul
                 else ALUControl = 4'b0000; //add,addi
               3'b001: ALUControl = 4'b1010; // sll, slli;
               3'b010: ALUControl = 4'b0101; //slt,slti
@@ -42,11 +42,13 @@ module ALU_Decoder(
               default: ALUControl = 4'bxxx; 
             endcase
           2'b11: //ALUOp = 2'b11 and beyond
-            case(funct3)
-              3'b000: ALUControl = 4'b1000; // AUIPC
-              3'b001: ALUControl = 4'b1001; // LUI
-              default: ALUControl = 4'bxxxx;
-            endcase
+            ALUControl = 4'b1001; // LUI
+            // The following code only works when we are also allowing less than 32bit istructions, where the opcode has a space to fit in func3
+            //case(funct3)
+            //  3'b000: ALUControl = 4'b1000; // AUIPC
+            //  3'b001: ALUControl = 4'b1001; // LUI
+            //  default: ALUControl = 4'bxxxx;
+            //endcase
           default: ALUControl = 4'bxxxx;
 	endcase
      end

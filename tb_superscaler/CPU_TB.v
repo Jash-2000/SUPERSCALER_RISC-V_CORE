@@ -11,7 +11,8 @@ integer clk_cnt=0;        // Process Variable to count the number of clock pulse
 
 // Wires decalred for simulation purpose.
 wire [31:0] PC, Instr;
-wire SSSrc, ImmSrc;
+wire SSSrc;
+wire [1:0] ImmSrc;
 wire [31:0] reg_0, reg_1, reg_2, reg_3, reg_4;
 wire [31:0] RAM_0, RAM_1, RAM_25;
 wire [31:0] ALU_Src_A, ALU_Src_B, ALU_Result;
