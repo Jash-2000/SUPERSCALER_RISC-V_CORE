@@ -1,5 +1,6 @@
-# SUPERSCALER_RISC-V_CORE
-Added an superscaler implementation of ALU that can help with parallel computation for encryption.
+# Superscaler RISC-V Core For Encryption
+
+Implemented a full custom superscaler implementation of ALU that can help with parallel computation for encryption.
 The main ALU supports 32 operations while the slave ALU-cluster supports only MUL and ADD operations, as per the need of the application. We have implemented Full Custom flow with custom memory design using Cadence FreePDK45
 
 Our application showcases a device granting sudo access only when correct username and password are provided.
@@ -7,21 +8,6 @@ If the system moves beyond Instruction 10, the sudo access is granted to the use
 
 Clearly our model decreases the latency 8x times for the encryption algorithms showcased. For example, a simple 10 digit encryption tester using *ADD, MUL, SUB* is shown below:
 ![image](SS_Operation.png)
-
-The superscaler instructions are as follows
-- 1. Fill Register 1 with Immediate value for Admin Key
-- 2. Store the Admin key to Memory
-- 3. Fill Register 5 with Immediate value for passkey
-- 4. Store the desired passkey for sudo access, in memory
-- 5. Load the Public Key in Register 1 (Username)
-- 6. Load the Private Key in Register 2 (Password)
-- 7. Superscaler MUL for Reg1 and Reg2, writeback in Register 3
-- 8. Load the Admin key from memory to Register 4
-- 9. Superscaler ADD for  Reg3 and Reg4, write back in Reg3
-- 10. Compare Reg5 and Reg3 and branch to Instr 5 if NEQ (attempt for the password again...)
-- 11-15. Random Instructions (Showcasing the CPU's other capablitites based on user inputs)
-- 16. Load Memory address 100 with 32-bit decimal value 25 to kill the system. 
-
 
 ## Design Architecture
 SimTop - Contains the complete CPU unit with Clock and Reset signals being the inputs.
@@ -37,6 +23,50 @@ SimTop - Contains the complete CPU unit with Clock and Reset signals being the i
   - 3 Write_Back -   MUX logic to determin the data to be written back to register
   - 4 Ext_Unit -     Extend and/or Immediate Units for the CPU. 
 
---
+## Program Architecture
+All keys being used in the program are 8 hex-digit long. 
+Admin Key -- Key used once the user enters Username and Password -- [ 1 1 1 1 1 1 1 1 ]
+Public Key -- Username -- [ 0 2 3 4 5 4 3 2 ]
+Private Key -- Password -- [ F 7 4 2 1 0 3 5 ]
+Passkey -- The encrypted combination stored in the memory -- [ 1 F D 9 6 1 A B ]
+
+Admin Key is pre-stored in the Memory address 0
+System Memory Config is already stored in Register 0.
+
+**Instruction Set**:
+
+- Load the Passkey into the memory as soon as system boots up
+1. LUI x1 0x1FD96
+2. ADDI x1 x1 0x1AB
+3. LUI x2 0x00000
+4. SW x1 4(x2)
+
+- Random Operation simulated while system bootup process, which can randomly change all values stored in temporary registers
+5. SLT x1 x1 x2
+
+- System starts up and User gets a prompt to enter username and password.
+6. LUI x3 0x02345
+7. ADDI x3 x3 0x432
+8. LUI x4 0xF7421
+9. ADDI x4 x4 0x035
+
+- Superscaler Element-wise Multiplication for encryption purpose
+10. *MUL x3 x3 x4
+
+- Load the Admin Key from the system 
+11. LW x4 0(x2)
+
+- Superscaler Elemnet-wise  Addition for the encryption purpose
+12. *ADD x3 x3 x4
+
+- Load the saved Passkey from the memory for comparision. Jump to Instr 5 if the username and password do not match...
+13. LW x1 4(x2)
+14. BNE x1 x3 -32
+
+- Exit code for the system is when 100th byte of the D_Mem gets the value "25".
+15. ADDI x0 x0 0x19
+16. SW x0 100(x2)
+
+---
 
 Current implementation is single-cycle. WIP for pipelined architecture...

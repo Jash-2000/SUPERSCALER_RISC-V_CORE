@@ -13,6 +13,10 @@ module Register_File(
 
    reg [31:0] 				REG_MEM_BLOCK[31:0];
 
+   initial begin
+   	REG_MEM_BLOCK[32'h00_00_00_00]  = 32'h00000000;	// Value 0 stored in the 1st register block, useful for system operations
+   end
+
    always@(posedge clk)
      begin
 	if(WE3)
