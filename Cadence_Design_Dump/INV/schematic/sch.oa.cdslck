@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      parthkulkarni
+HostName                       ecellvm-09.engr.ucsb.edu
+ProcessIdentifier              22603
+ProcessCreationTime_UTC        1731364275
+ProcessCreationTime_Readable   Mon Nov 11 14:31:15 2024 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /fs/student/parthkulkarni/ncsu45_cp/Test/INV/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Nov 11 15:44:03 2024 PST
