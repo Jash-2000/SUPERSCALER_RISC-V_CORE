@@ -1,0 +1,24 @@
+*pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
+*pexRunDir: /fs/faculty/bongjin/ncsu45_bk/pex
+*pexLayoutPaths: INVX1.calibre.db
+*pexLayoutPrimary: INVX1
+*pexLayoutLibrary: freepdk45_cells
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: INVX1.src.net
+*pexSourcePrimary: INVX1
+*pexSourceLibrary: freepdk45_cells
+*pexSourceView: schematic
+*pexSourceGetFromViewer: 1
+*pexReportFile: INVX1.lvs.report
+*pexPexNetlistFile: INVX1.pex.netlist_RCCC
+*pexPexNetlistFormat: HSPICE
+*pexPexReportFile: INVX1.pex.report
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: freepdk45_cells
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: INVX1.def

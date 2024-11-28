@@ -1,0 +1,71 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
+          : sub-version  IC6.1.8-64b.83 
+Started at: 27-Mar-2022  04:20:18
+User Name : jahyun
+Host Name : ecellvm-02.engr.ucsb.edu
+Directory : /fs/guest/jahyun/test_tsmc
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmc18/nmos2v/layout            0        0       0        18     0      0         7      0             0      0     0     0       0       
+test/test/layout                1        0       0        0      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmc18/nmos2v/layout            0        0          0          0          0          0     0        0         0         0        
+test/test/layout                0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+IP              drawing         63      63        0        0        0        7        0             0    0   0   0     0      0      
+CONT            drawing         15      0         0        8        0        0        0             0    0   0   0     0      0      
+DIFF            drawing         3       0         0        3        0        0        0             0    0   0   0     0      0      
+METAL1          drawing         16      0         0        2        0        0        0             0    0   0   0     0      0      
+NIMP            drawing         8       0         0        1        0        0        0             0    0   0   0     0      0      
+WELLBODY        drawing         103     0         0        1        0        0        0             0    0   0   0     0      0      
+POLY1           drawing         13      0         0        3        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		1
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			18
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				7
+	TextDisplay:		0
+	Cells:				2
+Design Libraries: 
+
+DEFINE test	/fs/guest/jahyun/test_tsmc/test
+DEFINE tsmc18	/fs/ece/tech/TSMC_PDK/IC61/tsmc18

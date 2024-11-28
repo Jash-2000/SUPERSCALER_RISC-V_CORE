@@ -1,0 +1,17 @@
+*drcRulesFile: /ece/PDKs/bongjin/NCSU_FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul
+*drcRunDir: /fs/faculty/bongjin/ncsu45_bk/drc
+*drcLayoutPaths: INVX1.calibre.db
+*drcLayoutPrimary: INVX1
+*drcLayoutLibrary: freepdk45_cells
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: INVX1.drc.results
+*drcRHDBFile: INVX1.rhdb
+*drcSummaryFile: INVX1.drc.summary
+*drcDFMDefaultsResultsFile: INVX1.dfmDefaults.db
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: freepdk45_cells
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: INVX1.def

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1648510377 1648510378
+lvs_ExtOutFile RUNDIR /fs/guest/jahyun/test_ncsu/lvs
+lvs_ExtOutFile RULES_FILE /fs/guest/jahyun/test_ncsu/lvs/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /fs/guest/jahyun/test_ncsu/lvs/AND2X2.sp
+lvs_ExtOutFile EXTRACTION_REPORT AND2X2.lvs.report.ext

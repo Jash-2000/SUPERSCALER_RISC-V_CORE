@@ -1,0 +1,56 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /fs/guest/jahyun/test_tsmc/lvs
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {2 0 1 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName AVD33
+lvs_PowerName AVD33B
+lvs_PowerName AVD33G
+lvs_PowerName AVD33R
+lvs_PowerName AVD33WELL
+lvs_PowerName AVDD
+lvs_PowerName AVDDB
+lvs_PowerName AVDDBG
+lvs_PowerName AVDDG
+lvs_PowerName AVDDR
+lvs_PowerName AVDWELL
+lvs_PowerName DVDD
+lvs_PowerName TAVD33
+lvs_PowerName TAVD33PST
+lvs_PowerName TAVDD
+lvs_PowerName TAVDDPST
+lvs_PowerName VD33
+lvs_PowerName VD33WELL
+lvs_PowerName VDD
+lvs_PowerName VDD5V
+lvs_PowerName VDDG
+lvs_PowerName VDDPST
+lvs_PowerName VDDSA
+lvs_PowerName VDWELL
+lvs_GroundName AGND
+lvs_GroundName AVS33
+lvs_GroundName AVS33B
+lvs_GroundName AVS33G
+lvs_GroundName AVS33R
+lvs_GroundName AVS33SUB
+lvs_GroundName AVSS
+lvs_GroundName AVSSB
+lvs_GroundName AVSSBG
+lvs_GroundName AVSSG
+lvs_GroundName AVSSR
+lvs_GroundName AVSSUB
+lvs_GroundName DVSS
+lvs_GroundName GND
+lvs_GroundName TAVSS
+lvs_GroundName TAVSSPST
+lvs_GroundName VS33
+lvs_GroundName VS33SUB
+lvs_GroundName VSS
+lvs_GroundName VSSG
+lvs_GroundName VSSPST
+lvs_GroundName VSSUB
+lvs_LvsOutFile LVS_REPORT test.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /fs/guest/jahyun/test_tsmc/lvs/test.src.net
+lvs_LvsOutFile RULES_FILE /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_

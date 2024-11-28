@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# License enviroment
+LM_LICENSE_FILE=5280@license.ece.ucsb.edu:1781@license.ece.ucsb.edu:1717@license.ece.ucsb.edu
+export LM_LICENSE_FILE
+
+# Virtuoso IC618
+PATH=$PATH:PATH=$PATH:/ece/cadence/rhel8/IC231/tools/dfII/bin
+export PATH
+PATH=$PATH:PATH=$PATH:/ece/cadence/MMSIM151/tools/bin/
+export PATH
+
+CDS=/ece/cadence/rhel8/IC231
+export CDS
+
+PDK_DIR=/ece/PDKs/bongjin/NCSU_FreePDK45
+export PDK_DIR
+
+# Mentor
+MGC_HOME=/ece/mentor/calibre/aok_cal_2022.4_37.20
+PATH=$MGC_HOME/bin:$PATH
+export PATH
+MGC_HOME=/ece/mentor/calibre/aok_cal_2022.4_37.20
+
+export MGC_HOME
+
+
+# Hspice
+SNPSLMD_LICENSE_FILE=1781@license.ece.ucsb.edu
+export SNPSLMD_LICENSE_FILE
+PATH=/ece/synopsys/hspice/S-2021.09-SP1/hspice/bin:$PATH
+export PATH
+
+exec layout -64

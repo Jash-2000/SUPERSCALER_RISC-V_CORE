@@ -1,0 +1,27 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  test
+* Top Cell Name: test
+* View Name:     schematic
+* Netlisted on:  Mar 27 04:20:19 2022
+************************************************************************
+
+.INCLUDE  /fs/ece/tech/TSMC_PDK/IC61/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: test
+* Cell Name:    test
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT test
+*.PININFO
+.ENDS
+

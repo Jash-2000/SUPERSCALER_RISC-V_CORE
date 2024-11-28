@@ -1,0 +1,23 @@
+*lvsRulesFile: /ece/PDKs/bongjin/NCSU_FreePDK45/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /fs/faculty/bongjin/ncsu45_bk/lvs
+*lvsLayoutPaths: INVX1.calibre.db
+*lvsLayoutPrimary: INVX1
+*lvsLayoutLibrary: freepdk45_cells
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: INVX1.src.net
+*lvsSourcePrimary: INVX1
+*lvsSourceLibrary: freepdk45_cells
+*lvsSourceView: schematic
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: INVX1.sp
+*lvsERCDatabase: INVX1.erc.results
+*lvsERCSummaryFile: INVX1.erc.summary
+*lvsReportFile: INVX1.lvs.report
+*cmnWarnLayoutOverwrite: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: freepdk45_cells
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: INVX1.def

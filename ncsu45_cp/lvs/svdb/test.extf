@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1648380020 1648380021
+lvs_ExtOutFile RUNDIR /fs/guest/jahyun/test_tsmc/lvs
+lvs_ExtOutFile RULES_FILE /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {7 1 1 0 0 0 0 0 0 1 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /fs/guest/jahyun/test_tsmc/lvs/test.sp
+lvs_ExtOutFile EXTRACTION_REPORT test.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE test.erc.results
+lvs_ExtOutFile ERC_SUMMARY test.erc.summary

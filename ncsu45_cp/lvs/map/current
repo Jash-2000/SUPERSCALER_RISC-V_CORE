@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "AND2X2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/fs/guest/jahyun/test_ncsu/lvs"
+ )
+( model
+( "freepdk45_cells/AND2X2/schematic" "AND2X2" )
+ )
+( "AND2X2" "ihnl/cds0/map" )
+ )

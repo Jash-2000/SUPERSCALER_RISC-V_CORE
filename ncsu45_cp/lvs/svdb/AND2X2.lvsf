@@ -1,0 +1,14 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /fs/guest/jahyun/test_ncsu/lvs
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName VDD
+lvs_GroundName VSS
+lvs_GroundName GROUND
+lvs_LvsOutFile LVS_REPORT AND2X2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /fs/guest/jahyun/test_ncsu/lvs/AND2X2.src.net
+lvs_LvsOutFile RULES_FILE /fs/guest/jahyun/test_ncsu/lvs/_calibreLVS.rul_
+lvs_LvsRunTimes 1648510378 1648510379

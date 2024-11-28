@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  freepdk45_cells
+* Top Cell Name: AND2X2
+* View Name:     schematic
+* Netlisted on:  Mar 28 16:32:56 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: freepdk45_cells
+* Cell Name:    AND2X2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2X2 A B Y gnd vdd
+*.PININFO A:B B:B Y:B gnd:B vdd:B
+MM0 a_2_6# A vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 vdd B a_2_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM2 Y a_2_6# vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM3 a_9_6# A a_2_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM4 gnd B a_9_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM5 Y a_2_6# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+

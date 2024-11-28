@@ -1,0 +1,15 @@
+# File Created by Jahyun Koo at Mon Mar 28 16:27:45 2022
+# assisted by CdsLibEditor
+SOFTINCLUDE /fs/ece/cadence/IC618/share/cdssetup/dfII/cds.lib
+SOFTINCLUDE /fs/ece/cadence/IC618/share/cdssetup/hdl/cds.lib
+SOFTINCLUDE /fs/ece/cadence/IC618/share/cdssetup/pic/cds.lib
+SOFTINCLUDE /fs/ece/cadence/IC618/share/cdssetup/sg/cds.lib
+DEFINE NCSU_TechLib_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+
+DEFINE TEST /fs/guest/jahyun/test_ncsu/TEST
+DEFINE freepdk45_cells $PDK_DIR/osu_soc/lib/freepdk45_cells
+#Removed by ddDeleteObj: DEFINE Test /fs/student/parthkulkarni/ncsu45_cp/Test
+DEFINE Test /fs/student/parthkulkarni/ncsu45_cp/Test
+DEFINE Full_Custom_Flow /fs/student/parthkulkarni/ncsu45_cp/Full_Custom_Flow
+DEFINE Full_Custom_Flow /fs/student/parthkulkarni/ncsu45_cp/Full_Custom_Flow

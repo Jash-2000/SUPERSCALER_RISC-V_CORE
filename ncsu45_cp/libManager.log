@@ -1,0 +1,157 @@
+\o Program:		@(#)$CDS: libManager version 23.1 - CAT38 04/15/2024 12:23 (sjfdcl749) $
+\o Sub version:		sub-version  p323 
+\o Arguments:		-mpssession layout194573 -mpshost ecellvm-01.engr.ucsb.edu -masterPID 194573 -ADVM 
+\o Working Directory:	ecellvm-01.engr.ucsb.edu:/fs/student/parthkulkarni/ncsu45_cp
+\o 64-bit offsets
+\o Qt version: 		5.15.9
+\o Log file is "/fs/student/parthkulkarni/ncsu45_cp/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellComboFilter->value = "MUX8:1"
+\a cdsLibManager->cellComboFilter->value = ""
+\a cdsLibManager->viewComboFilter->value = "schematic"
+\a cdsLibManager->viewComboFilter->value = ""
+\a nrResizeWindow(cdsLibManager list(95 123 602 491))
+\o MPS virtuoso types registered: 68
+\o changeWorkingDir("/fs/student/parthkulkarni/ncsu45_cp") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Session hidden cells enabled.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "Test"
+\a cdsLibManager->libLineEdit->value = "Test"
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->cellLineEdit->value = "Alu_Inst"
+\o View filter set to "s"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a _lmSetFilter( 'view "s")
+\o View filter set to "sche"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a _lmSetFilter( 'view "sche")
+\o View filter set to "schema"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a _lmSetFilter( 'view "schema")
+\o View filter set to "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a _lmSetFilter( 'view "schematic")
+\a cdsLibManager->viewComboFilter->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = "ALU_inst"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "TEST"
+\a cdsLibManager->libLineEdit->value = "TEST"
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "test"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)

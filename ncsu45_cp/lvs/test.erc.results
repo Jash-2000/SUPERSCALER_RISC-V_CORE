@@ -1,0 +1,37 @@
+test 1000
+mnpg
+0 0 2 Mar 27 04:20:21 2022                                                      
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+MOS connected to both power and ground
+mppg
+0 0 2 Mar 27 04:20:21 2022                                                      
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+MOS connected to both power and ground
+floating
+1 1 2 Mar 27 04:20:21 2022                                                      
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+Please check the floating gate
+p 1 4
+CN test c 1 0 0 1 0 0 0
+700 2280
+880 2280
+880 4720
+700 4720
+floating.nxwell_float
+0 0 3 Mar 27 04:20:21 2022
+ERROR IN PATHCHK                                     
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+Floating nxwell_float is not allowed
+floating.psub
+0 0 3 Mar 27 04:20:21 2022
+ERROR IN PATHCHK                                     
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+Floating psub is not allowed
+npvss49
+0 0 2 Mar 27 04:20:21 2022                                                      
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+ntap connected to GROUND
+ppvdd49
+0 0 2 Mar 27 04:20:21 2022                                                      
+Rule File Pathname: /fs/guest/jahyun/test_tsmc/lvs/_calibre.lvs_
+ptap connected to POWER

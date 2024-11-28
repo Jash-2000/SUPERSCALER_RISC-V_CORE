@@ -1,0 +1,26 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         test.lvs.report.ext
+LAYOUT NAME:              test.calibre.db ('test')
+CREATION TIME:            Sun Mar 27 04:20:20 2022
+CURRENT DIRECTORY:        /fs/guest/jahyun/test_tsmc/lvs
+USER NAME:                jahyun
+CALIBRE VERSION:          v2021.4_25.11    Mon Nov 1 16:12:43 PDT 2021
+
+
+
+
+WARNING: Invalid PATHCHK request "! POWER": no POWER nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "! GROUND": no GROUND nets present, operation aborted.
+

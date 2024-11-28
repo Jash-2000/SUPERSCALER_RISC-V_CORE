@@ -1,0 +1,142 @@
+\# Program start time:     UTC 2024.11.12 01:32:14.454
+\# Local time: PST (UTC-08:00) 2024.11.11 17:32:14.454
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 05/22/2024 07:43 (cpgbld16) $
+\o Hierarchy:		/fs/ece/cadence/rhel8/IC231/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR7.27  (64-bit addresses)
+\# Command line:	/ece/cadence/rhel8/IC231/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ecellvm-09.engr.ucsb.edu -beanport 11639 -beanbinlog  -beanLogFile /fs/student/parthkulkarni/ncsu45_cp/logs_parthkulkarni/logs0/amps_Service16.log -mpssession layout22603 -mpshost ecellvm-09.engr.ucsb.edu -davinciService DaVinciService_22603_1731369731 -scopedPid 22603 -axlSession fnxSession2 -axlServiceIdFlag 16 -uuid c0f2be50-c43f-4cac-be4e-db84f1a7a0d7 -heartbeat /dev/shm/swift-heartbeat.hEfhLqIl3m -log /fs/student/parthkulkarni/ncsu45_cp/logs_parthkulkarni/logs0/Service16.log -adeBrokerAddress ecellvm-09.engr.ucsb.edu:40147 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7CFC8A12896AD4266FF98751912BD03B72B78D08CE28867C66E3BF1FFC06BC4D66E38F1FFC06BC4D01D13F044C1DDB7F00001E46 -interactive -offlineExprEval -upfrontMode -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ecellvm-09.engr.ucsb.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 25 09:20:43 UTC 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5865 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        747 MB
+\# Available memory:	     15,682 MB
+\# System memory:	     19,296 MB
+\# Maximum memory size:	     18,721 MB
+\# Max mem available:	     15,854 MB
+\# Initial memory used:	        172 MB
+\#        process size:	      1,691 MB
+\# Thread usage limits (effective/default):	maxthreads 63838/63838 maxload 8.00/8.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		parthkulkarni
+\o Working Directory:	ecellvm-09.engr.ucsb.edu:/fs/student/parthkulkarni/ncsu45_cp
+\# Process Id:		65362
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\# Memory report: using         319 MB, process size 1,885 MB at UTC 2024.11.12 01:32:17.077
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [17:32:14.500115] Configured Lic search path (23.02-s006): 5280@license.ece.ucsb.edu:1781@license.ece.ucsb.edu:1717@license.ece.ucsb.edu
+\o //
+\o //  Calibre Skill Interface * (v2022.4_37.20) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o loading vars from /ece/PDKs/bongjin/NCSU_FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o 
+\o This initiative is brought to you by the Semiconductor Research
+\o Corporation (SRC), the National Science Foundation (NSF), Silicon
+\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
+\o 
+\o This version of the kit was created by Rhett Davis, Paul Franzon,
+\o Michael Bucher, Sunil Basavarajaiah, and Harun Demircioglu
+\o of North Carolina State University, and James Stine and Ivan Castellanos
+\o of Oklahoma State University.
+\o 
+\o Contributions and modifications to this kit are welcomed and encouraged.
+\o 
+\o Copyright 2007 - W. Rhett Davis, Paul Franzon, Michael Bucher,
+\o                  and Sunil Basavarajaiah, North Carolina State University
+\o Copyright 2008 - W. Rhett Davis, Michael Bucher, and Sunil Basavarajaiah,
+\o                  North Carolina State University (ncsu_basekit subtree)
+\o                  James Stine, and Ivan Castellanos,
+\o                  and Oklahoma State University (osu_soc subtree)
+\o Copyright 2011 - W. Rhett Davis, and Harun Demircioglu,
+\o                  North Carolina State University
+\o 
+\o Licensed under the Apache License, Version 2.0 (the "License");
+\o you may not use this file except in compliance with the License.
+\o You may obtain a copy of the License at
+\o 
+\o     http://www.apache.org/licenses/LICENSE-2.0
+\o 
+\o Unless required by applicable law or agreed to in writing, software
+\o distributed under the License is distributed on an "AS IS" BASIS,
+\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+\o See the License for the specific language governing permissions and
+\o limitations under the License.
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 65362' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
