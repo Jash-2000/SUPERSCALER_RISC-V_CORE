@@ -7,10 +7,10 @@
 
 module PC_Unit(
 		     input	   clk,reset,PCSrc,
-		     output [31:0] PC
+		     output [31:0] PC, PCplus4, ImmExt
 		     );
 
-   wire [31:0]			   PCnext,PCplus4,PCtarget,ImmExt;
+   wire [31:0]			   PCnext,PCtarget;
 
    PC PC_inst (
 	       .clk(clk),

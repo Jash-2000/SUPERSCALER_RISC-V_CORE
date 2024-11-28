@@ -7,7 +7,7 @@ Our application showcases a device granting sudo access only when correct userna
 If the system moves beyond Instruction 10, the sudo access is granted to the user.
 
 Clearly our model decreases the latency 8x times for the encryption algorithms showcased. For example, a simple 10 digit encryption tester using *ADD, MUL, SUB* is shown below:
-![image](SS_Operation.png)
+![SS_Operation.png](SS_Operation.png)
 
 ## Design Architecture
 SimTop - Contains the complete CPU unit with Clock and Reset signals being the inputs.
@@ -22,6 +22,9 @@ SimTop - Contains the complete CPU unit with Clock and Reset signals being the i
   - 2 ALU_Unit -     Contains both the ALUs, their supplimentry units and the logic used to activate the required ALU unit.
   - 3 Write_Back -   MUX logic to determin the data to be written back to register
   - 4 Ext_Unit -     Extend and/or Immediate Units for the CPU. 
+
+**The System Architecture Schematic is shwon below:**
+![SuperScaler_Architecture.png](SuperScaler_Architecture.png)
 
 ## Implemented Instructions
 - R-Type - ADD, ADDI, SUB, SLT, SLTU, XOR, SRL, SRA, OR, AND
@@ -38,7 +41,7 @@ Private Key -- Password -- [ F 7 4 2 1 0 3 5 ]
 Passkey -- The encrypted combination stored in the memory -- [ 1 F D 9 6 1 A B ]
 
 Admin Key is pre-stored in the Memory address 0
-System Memory Config is already stored in Register 0.
+System Memory Config('d25) is already stored in Register 0.
 
 **Instruction Set**:
 
@@ -66,14 +69,21 @@ System Memory Config is already stored in Register 0.
 - Superscaler Elemnet-wise  Addition for the encryption purpose
 12. *ADD x3 x3 x4
 
-- Load the saved Passkey from the memory for comparision. Jump to Instr 5 if the username and password do not match...
+- Load the saved Passkey from the memory for comparision. Jump to Exit instruction if the username and password match...
 13. LW x1 4(x2)
-14. BNE x1 x3 -32
+14. BEQ x1 x3 8
+
+- If the username and password are not correct, we store value 'd50 in exit register, raising an interrupt in the system.
+15. ADDI x0 x0 0x19
 
 - Exit code for the system is when 100th byte of the D_Mem gets the value "25".
-15. ADDI x0 x0 0x19
 16. SW x0 100(x2)
+
+
+**Fully functional system waveforms are as shown below:**
+![CPU_Core_SS_Cycle.png](CPU_Core_SS_Cycle.png)
 
 ---
 
 Current implementation is single-cycle. WIP for pipelined architecture...
+The reports and design presentations have been uploaded in the supplimentry materials folder.

@@ -14,11 +14,11 @@ module Register_File(
    reg [31:0] 				REG_MEM_BLOCK[31:0];
 
    initial begin
-    REG_MEM_BLOCK[5'b00000]  = 32'h00000000;	// Value 0 stored in the 1st register block, useful for system operations
-    REG_MEM_BLOCK[5'b00001]  = 32'h00000000;    //32'h1FD961AB;
+    REG_MEM_BLOCK[5'b00000]  = 32'h00000019;    // System Exit Configurations
+    REG_MEM_BLOCK[5'b00001]  = 32'h00000000;
     REG_MEM_BLOCK[5'b00010]  = 32'h00000000;
-    REG_MEM_BLOCK[5'b00011]  = 32'h00000000;    //32'h02345432;
-    REG_MEM_BLOCK[5'b00100]  = 32'h00000000;    //32'hF7421035;
+    REG_MEM_BLOCK[5'b00011]  = 32'h00000000;
+    REG_MEM_BLOCK[5'b00100]  = 32'h00000000;
    end
 
    always@(posedge clk)

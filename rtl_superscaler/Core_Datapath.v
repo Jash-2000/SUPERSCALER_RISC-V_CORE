@@ -39,7 +39,9 @@ module Core_Datapath(
 	       .clk(clk),
 	       .reset(reset),
 	       .PCSrc(PCSrc),
-	       .PC(PC)
+	       .PC(PC),
+	       .PCplus4(PCplus4),
+	       .ImmExt(ImmExt)
 	       );
 
    ALU_Unit ALU_Unit_inst(
