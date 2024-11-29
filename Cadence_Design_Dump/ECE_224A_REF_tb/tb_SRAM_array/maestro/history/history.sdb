@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.30
+			<timestamp>Nov 28 17:32:23 2024</timestamp>
+			<uuid>{6efc3df1-38d2-4369-9c0c-27cbedd27461}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.31
+			<timestamp>Nov 28 17:36:41 2024</timestamp>
+			<uuid>{e39184e8-e5c0-4f3e-8a12-7a8a785c0a16}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.32
+			<timestamp>Nov 28 17:38:34 2024</timestamp>
+			<uuid>{1a22f9e0-64c6-4839-b476-8c22c6ec9e43}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.33
+			<timestamp>Nov 28 17:40:07 2024</timestamp>
+			<uuid>{b29d86c3-484f-45f8-ad3c-641660ad0dc0}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.34
+			<timestamp>Nov 28 17:45:26 2024</timestamp>
+			<uuid>{6e2dbabc-f768-41a2-99d4-62b2fb888da6}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.35
+			<timestamp>Nov 28 17:49:58 2024</timestamp>
+			<uuid>{89f94370-a543-426c-b7bc-69c094cca219}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.36
+			<timestamp>Nov 28 17:56:48 2024</timestamp>
+			<uuid>{37c2bc54-0de1-446c-9d1b-2a2a0c6fa203}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.37
+			<timestamp>Nov 28 19:20:39 2024</timestamp>
+			<uuid>{2fa80851-e9e7-462e-9853-7ace271dc25e}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.38
+			<timestamp>Nov 28 19:24:00 2024</timestamp>
+			<uuid>{8ff6a655-02a1-4543-b408-40b66db52192}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.39
+			<timestamp>Nov 28 20:05:40 2024</timestamp>
+			<uuid>{432a02db-8c35-437f-9637-b5b4825b8101}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF_tb/tb_SRAM_array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

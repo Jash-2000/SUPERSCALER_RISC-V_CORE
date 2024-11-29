@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 11 22:25:26 2024</timestamp>
+			<uuid>{66030b21-2da5-4807-8af6-f68ede5281ff}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.12
+			<timestamp>Nov 11 22:36:03 2024</timestamp>
+			<uuid>{9ade6d4f-2789-4a27-8849-365bee376fa9}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.13
+			<timestamp>Nov 11 22:39:12 2024</timestamp>
+			<uuid>{34832d19-481a-4502-8d2d-bdbdc5e3db43}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.14
+			<timestamp>Nov 11 22:50:30 2024</timestamp>
+			<uuid>{f44fae06-7f99-45c7-b175-6c956d50579f}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.15
+			<timestamp>Nov 11 22:51:55 2024</timestamp>
+			<uuid>{37255d05-5c14-4267-b803-e190c41864e5}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.16
+			<timestamp>Nov 11 22:54:02 2024</timestamp>
+			<uuid>{044fe6da-cacb-4a02-9e7d-718ae45ed59c}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.17
+			<timestamp>Nov 11 22:56:41 2024</timestamp>
+			<uuid>{cedabd26-967e-434b-b9e8-ff77a4990cc5}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.18
+			<timestamp>Nov 11 22:57:03 2024</timestamp>
+			<uuid>{f2128ec2-11a9-4850-8c67-66f6102c06f0}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.19
+			<timestamp>Nov 11 23:55:30 2024</timestamp>
+			<uuid>{f0506fe6-090e-4c53-a29f-3508354b5bdc}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.20
+			<timestamp>Nov 12 00:07:25 2024</timestamp>
+			<uuid>{2c335416-f83e-4926-9c79-2a36696ba09b}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.21
+			<timestamp>Nov 12 00:11:01 2024</timestamp>
+			<uuid>{3e9f5084-afbd-4c84-922c-c9f947ebc899}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_REF/LP_SRAM_8T/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>
