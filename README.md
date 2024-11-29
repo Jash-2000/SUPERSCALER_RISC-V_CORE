@@ -1,6 +1,6 @@
 # Superscaler RISC-V Core For Encryption
 
-Implemented a full custom superscaler implementation of ALU that can help with parallel computation for encryption.
+Implemented the full custom superscaler implementation of ALU that can help with parallel computation for encryption.
 The main ALU supports 32 operations while the slave ALU-cluster supports only MUL and ADD operations, as per the need of the application. We have implemented Full Custom flow with custom memory design using Cadence FreePDK45
 
 Our application showcases a device granting sudo access only when correct username and password are provided.
