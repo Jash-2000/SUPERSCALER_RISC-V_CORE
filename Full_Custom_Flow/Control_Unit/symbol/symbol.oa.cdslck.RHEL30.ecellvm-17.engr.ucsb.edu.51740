@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jashshah
+HostName                       ecellvm-17.engr.ucsb.edu
+ProcessIdentifier              51740
+ProcessCreationTime_UTC        1732833298
+ProcessCreationTime_Readable   Thu Nov 28 14:34:58 2024 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence_Design/Full_Custom_Flow/Control_Unit/symbol/symbol.oa.cdslck
+TimeEditLocked                 Thu Nov 28 15:12:04 2024 PST
