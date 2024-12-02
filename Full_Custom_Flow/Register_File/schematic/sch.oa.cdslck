@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sun Dec  1 21:19:57 2024 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence_Design/Test/RegMem/schematic/sch.oa.cdslck
-TimeEditLocked                 Mon Dec  2 00:21:59 2024 PST
+FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence_Design/Full_Custom_Flow/Register_File/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Dec  2 00:20:34 2024 PST
