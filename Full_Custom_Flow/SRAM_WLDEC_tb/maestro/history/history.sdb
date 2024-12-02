@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Nov 27 02:50:15 2024</timestamp>
+			<uuid>{a50a2cfa-9f64-40c8-9057-a34724e85f37}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_WLDEC_tb/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_WLDEC_tb/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/ECE_224A_final/SRAM_WLDEC_tb/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE_224A_final/SRAM_WLDEC_tb/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

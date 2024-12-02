@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Nov 27 01:33:15 2024</timestamp>
+			<uuid>{897df5d0-383b-4d37-a06c-a386bef2c559}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_write_tb/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_write_tb/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/results/maestro/Interactive.0</psfdir>
+			<simdir>/fs/student/oindrila_chatterjee/simulation/results/maestro/Interactive.0</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<timestamp>Nov 27 01:40:42 2024</timestamp>
+			<uuid>{b5588ccb-e83a-4619-a4b0-bbd0865ea498}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_write_tb/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/oindrila_chatterjee/ECE_224A/ncsu45_cp/ECE_224A_final/SRAM_write_tb/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/oindrila_chatterjee/simulation/results/maestro/Interactive.1</psfdir>
+			<simdir>/fs/student/oindrila_chatterjee/simulation/results/maestro/Interactive.1</simdir>
+		</historyentry>
+	</history>
+</setupdb>

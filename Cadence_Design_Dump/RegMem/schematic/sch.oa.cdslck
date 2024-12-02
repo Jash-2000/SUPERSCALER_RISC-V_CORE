@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      parthkulkarni
-HostName                       ecellvm-01.engr.ucsb.edu
-ProcessIdentifier              161093
-ProcessCreationTime_UTC        1732786802
-ProcessCreationTime_Readable   Thu Nov 28 01:40:02 2024 PST
+LoginName                      jashshah
+HostName                       ecellvm-17.engr.ucsb.edu
+ProcessIdentifier              37995
+ProcessCreationTime_UTC        1733116797
+ProcessCreationTime_Readable   Sun Dec  1 21:19:57 2024 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /fs/student/parthkulkarni/ncsu45_cp/Test/RegMem/schematic/sch.oa.cdslck
-TimeEditLocked                 Thu Nov 28 01:41:13 2024 PST
+FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence_Design/Test/RegMem/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Dec  2 00:21:59 2024 PST
