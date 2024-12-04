@@ -16,14 +16,14 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">Full_Custom_Flow_Single_Cycle_Top_1
+			<test enabled="1">Test_FullAdder_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>Single_Cycle_Top</value>
+						<value>FullAdder</value>
 					</option>
 					<option>lib
-						<value>Full_Custom_Flow</value>
+						<value>Test</value>
 					</option>
 					<option>sim
 						<value>hspiceD</value>
@@ -39,10 +39,10 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>/net15&lt;0:31&gt;
+					<output>/SUM
 						<evalType>point</evalType>
 					</output>
-					<output>/I0/I1/net3&lt;0:31&gt;
+					<output>/Cout
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -50,11 +50,11 @@
 		</tests>
 		<disabledtests></disabledtests>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">Full_Custom_Flow_Single_Cycle_Top_1</test>
+			<test netlist="0" netlistscope="all">Test_FullAdder_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value></value>
+				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -66,7 +66,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
