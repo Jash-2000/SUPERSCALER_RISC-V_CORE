@@ -1,13 +1,19 @@
 # Superscaler RISC-V Core For Encryption
 
 Implemented the full custom superscaler implementation of ALU that can help with parallel computation for encryption.
-The main ALU supports 32 operations while the slave ALU-cluster supports only MUL and ADD operations, as per the need of the application. We have implemented Full Custom flow with custom memory design using Cadence FreePDK45
+The main ALU supports 32 operations while the slave ALU-cluster supports only MUL, SUB and ADD operations, as per the need of the application. 
+We have implemented Full Custom flow with custom memory design using Cadence FreePDK45. 
+
+The CPU unit developed, has "clk", "reset", "Read_Enable" and "Precharge_Enable" signals as the input (should be coming from the upper software/firmware layers ). The Memory is a share unit between the CPU and the other peripherals, so all the data required for the peripheral system should be stored in the memory, which also serves as the system's output.
 
 Our application showcases a device granting sudo access only when correct username and password are provided.
 If the system moves beyond Instruction 10, the sudo access is granted to the user.
 
 Clearly our model decreases the latency 8x times for the encryption algorithms showcased. For example, a simple 10 digit encryption tester using *ADD, MUL, SUB* is shown below:
-![SS_Operation.png](SS_Operation.png)
+![SS_Operation.png](SS_Operation_TB.png)
+
+A better understanding of the Custom Design is shown in the Cadence Design Image below:
+![ALU_Array.png](ALU_Array.png)
 
 ## Design Architecture
 SimTop - Contains the complete CPU unit with Clock and Reset signals being the inputs.
@@ -25,6 +31,9 @@ SimTop - Contains the complete CPU unit with Clock and Reset signals being the i
 
 **The System Architecture Schematic is shwon below:**
 ![SuperScaler_Architecture.png](SuperScaler_Architecture.png)
+
+**And the upper level block of the custom design is shown below:**
+![CPU_Top.png](CPU_Top.png)
 
 ## Implemented Instructions
 - R-Type - ADD, ADDI, SUB, SLT, SLTU, XOR, SRL, SRA, OR, AND
@@ -83,7 +92,15 @@ System Memory Config('d25) is already stored in Register 0.
 **Fully functional system waveforms are as shown below:**
 ![CPU_Core_SS_Cycle.png](CPU_Core_SS_Cycle.png)
 
+
+## Design validation
+The image below shows a simple "Is Equal" circuit's simulation results to validate the choice of design parameters. 
+Detailed analysis can be found in the presentation slides included with this repo - ![Memory.pdf](Materials/VLSI%20Project%20Design%20-%20Memory.pdf) and ![RTL-Design.pdf](Materials/VLSI%20Project%20Design-RTL.pdf).
+
+![IsEqual.png](IsEqual.png)
+
 ---
 
 Current implementation is single-cycle. WIP for pipelined architecture...
 The reports and design presentations have been uploaded in the supplimentry materials folder.
+**Please leave a ⭐ if you found the work helpful**
