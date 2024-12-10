@@ -102,5 +102,6 @@ Detailed analysis can be found in the presentation slides included with this rep
 ---
 
 Current implementation is single-cycle. WIP for pipelined architecture...
-The reports and design presentations have been uploaded in the supplimentry materials folder.
+
+The reports and design presentations have been uploaded in the supplimentry materials folder. The project was completed within an ambitious target of 2 weeks. If you find some issues/have some questions, feel free to contact the developers by dropping us a mail at ![mail_id](riscv_team_10@ucsb.edu).
 **Please leave a ⭐ if you found the work helpful**
