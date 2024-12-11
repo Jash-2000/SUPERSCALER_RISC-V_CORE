@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Tue Dec 10 16:15:59 2024 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence/Test_Bench/ALU_Reduced_Block/schematic/sch.oa.cdslck
-TimeEditLocked                 Tue Dec 10 21:38:50 2024 PST
+FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence/Test_Bench/ALU_Block/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Dec 11 00:12:40 2024 PST

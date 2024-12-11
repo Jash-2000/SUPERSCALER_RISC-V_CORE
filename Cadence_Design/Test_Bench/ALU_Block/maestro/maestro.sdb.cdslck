@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jashshah
+HostName                       ecellvm-11.engr.ucsb.edu
+ProcessIdentifier              28900
+ProcessCreationTime_UTC        1733876155
+ProcessCreationTime_Readable   Tue Dec 10 16:15:55 2024 PST
+AppIdentifier                  /ece/cadence/rhel8/IC231/tools/dfII/bin/64bit/layout
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /fs/student/jashshah/Desktop/Cadence/Test_Bench/ALU_Block/maestro/maestro.sdb
+TimeEditLocked                 Wed Dec 11 00:12:53 2024 PST
