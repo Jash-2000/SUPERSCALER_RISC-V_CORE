@@ -94,10 +94,10 @@ System Memory Config('d25) is already stored in Register 0.
 
 
 ## Design validation
-The image below shows a simple "Is Equal" circuit's simulation results to validate the choice of design parameters. 
+The image below shows a multiplication circuit's simulation results to validate the choice of design parameters. 
 Detailed analysis can be found in the presentation slides included with this repo - ![Memory.pdf](Materials/VLSI%20Project%20Design%20-%20Memory.pdf) and ![RTL-Design.pdf](Materials/VLSI%20Project%20Design-RTL.pdf).
 
-![IsEqual.png](IsEqual.png)
+![[4_bit_MUL_Waves.png)](https://github.com/Jash-2000/SUPERSCALER_RISC-V_CORE/blob/main/4_bit_MUL_Waves.png)
 
 ---
 
