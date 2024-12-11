@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Dec 10 20:56:48 2024</timestamp>
+			<uuid>{e13e07ec-3dba-4424-a19c-1d916de6a76a}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/jashshah/Desktop/Cadence/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/jashshah/Desktop/Cadence/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/jashshah/simulation/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<timestamp>Dec 10 20:59:04 2024</timestamp>
+			<uuid>{cb59458f-d32d-4bbc-8b57-3f2c46d1ba0d}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/fs/student/jashshah/Desktop/Cadence/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/fs/student/jashshah/Desktop/Cadence/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/fs/student/jashshah/simulation/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Test_Bench/FullAdder/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>
